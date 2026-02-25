@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heritage & Co.</title>
+
+<!-- Google Font for Classic Feel -->
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Libre Baskerville', serif;
+        background-color: #e8edf1;
+        color: #2f3e4e;
+    }
+
+    header {
+        background-color: #3e5366;
+        color: #f5f5f5;
+        padding: 60px 20px;
+        text-align: center;
+        border-bottom: 5px solid #9aa7b3;
+    }
+
+    header h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 48px;
+        margin: 0;
+        letter-spacing: 2px;
+    }
+
+    header p {
+        font-size: 18px;
+        margin-top: 10px;
+        font-style: italic;
+    }
+
+    nav {
+        background-color: #2f3e4e;
+        text-align: center;
+        padding: 12px;
+    }
+
+    nav a {
+        color: #d6dde3;
+        text-decoration: none;
+        margin: 0 20px;
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+
+    nav a:hover {
+        color: #ffffff;
+    }
+
+    section {
+        padding: 60px 20px;
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+    }
+
+    section h2 {
+        font-family: 'Playfair Display', serif;
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .button {
+        display: inline-block;
+        padding: 12px 28px;
+        background-color: #3e5366;
+        color: white;
+        text-decoration: none;
+        margin-top: 20px;
+        border: 1px solid #2f3e4e;
+        transition: 0.3s;
+    }
+
+    .button:hover {
+        background-color: #2f3e4e;
+    }
+
+    footer {
+        background-color: #3e5366;
+        color: #e0e6eb;
+        text-align: center;
+        padding: 25px;
+        font-size: 14px;
+        margin-top: 60px;
+    }
+
+    .divider {
+        width: 80px;
+        height: 2px;
+        background-color: #9aa7b3;
+        margin: 20px auto;
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Heritage & Co.</h1>
+    <p>Established Excellence Since 1924</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Himnario</a>
+    <a href="#">Directory</a>
+    <a href="#">Contacts</a>
+</nav>
+
+<section>
+    <h2>Timeless Craftsmanship</h2>
+    <div class="divider"></div>
+    <p>
+        Latin American Council of Christian Churches. "Dedicado a Predicando el evangelio desde 1923"
+    </p>
+    <a href="#" class="button">Request Consultation</a>
+</section>
+
+<section style="background-color:#d6dde3;">
+    <h2>Our Philosophy</h2>
+    <div class="divider"></div>
+    <p>
+       
+    </p>
+</section>
+
+<footer>
+    © 2026 LACCC | All Rights Reserved
+</footer>
+
+</body>
+</html>
